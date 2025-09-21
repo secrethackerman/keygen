@@ -20,6 +20,7 @@ JSON_DIR = build
 SVG_SRC  = $(wildcard $(SVG_DIR)/*.svg)
 SCAD_SRC  = $(SCAD_DIR)/schlage_classic.scad \
             $(SCAD_DIR)/kwikset.scad \
+			$(SCAD_DIR)/kw10.scad \
             $(SCAD_DIR)/best.scad \
             $(SCAD_DIR)/schlage_primus.scad \
             $(SCAD_DIR)/medeco_classic.scad \
